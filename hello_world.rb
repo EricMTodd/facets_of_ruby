@@ -53,3 +53,17 @@ puts "\nMay I recommend your favorite number be #{new_favorite_number}? It is bi
 # name = gets.chomp
 # puts "There are #{name.length - 2} letters in your name."
 # Types do not have to be set to string when using this method of puts.
+
+
+# Challenge 6.2
+# Angry Boss. Write a program that repeats a user input back, and then fires them for it.
+puts "Your boss appears to be in a foul mood, but you have to talk to him anyway. What do you say?"
+input = gets.chomp
+puts "\"YOU CAN'T BE SERIOUS #{first_name.upcase}?! \"#{input.upcase}\" YOU KNOW WHAT? YOU MAKE ME SICK. GET OUTTA HERE, YOU'RE FIRED!\"\n\n"
+# Create a table of contents using the center, ljust and rjust methods.
+
+line_width = 25
+puts("\nTable of Contents\n".center(line_width))
+puts("Chapter 1:".ljust(line_width) + "Ability Scores" + "Page 3".rjust(line_width))
+puts("Chapter 2:".ljust(line_width) + "Choosing Your Race" + "Page 10".rjust(line_width))
+puts("Chapter 3:".ljust(line_width) + "Choosing Your Class" + "Page 20\n\n".rjust(line_width))
