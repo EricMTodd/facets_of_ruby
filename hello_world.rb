@@ -20,4 +20,3 @@ puts "Age in seconds: #{age_in_seconds}"
 authors_age_in_seconds = 1160000000
 authors_age = authors_age_in_seconds / seconds_in_a_year
 puts "Author's age: #{authors_age}"
-
