@@ -59,7 +59,7 @@ puts "\nMay I recommend your favorite number be #{new_favorite_number}? It is bi
 # Angry Boss. Write a program that repeats a user input back, and then fires them for it.
 puts "Your boss appears to be in a foul mood, but you have to talk to him anyway. What do you say?"
 input = gets.chomp
-puts "\"YOU CAN'T BE SERIOUS #{first_name.upcase}?! \"#{input.upcase}\" YOU KNOW WHAT? YOU MAKE ME SICK. GET OUTTA HERE, YOU'RE FIRED!\"\n\n"
+puts "\"You can't be serious #{first_name.upcase}. \"#{input.upcase}\" YOU KNOW WHAT? YOU MAKE ME SICK. GET OUTTA HERE, YOU'RE FIRED!\"\n\n"
 # Create a table of contents using the center, ljust and rjust methods.
 
 line_width = 25
