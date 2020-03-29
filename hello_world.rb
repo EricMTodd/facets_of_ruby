@@ -1,6 +1,6 @@
 puts "Hello world!"
 puts 1 + 2
-puts ("")
+puts ""
 
 # First Challenge, Output the following:
 # Hours in a year?
@@ -95,4 +95,17 @@ puts rand(1)
 puts rand(1)
 puts rand(1)
 puts rand(999)
-puts("\nThe weatherman said there is a #{rand(101)}% chance of rain.\nBut you can never trust a weatherman.")
+puts("\nThe weatherman said there is a #{rand(101)}% chance of rain.\nBut you can never trust a weatherman.\n\n")
+
+# You can set a seed with srand.
+srand 42
+puts rand(100)
+puts rand(100)
+puts rand(100)
+puts rand(100)
+puts ""
+srand 42
+puts rand(100)
+puts rand(100)
+puts rand(100)
+puts rand(100)
