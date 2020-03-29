@@ -5,5 +5,5 @@ The following will be the excercises and work done for the ExecOnline Replicants
 Chapters 1 - 6 are contained in hello_world.rb.
 
 Chapter: 7
-Section: 7.0 - Flow Control
-Page: 37
+Section: 7.5 - A Few Things to Try
+Page: 49
