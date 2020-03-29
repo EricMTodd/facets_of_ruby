@@ -1,6 +1,6 @@
 puts "Hello world!"
 puts 1 + 2
-puts("")
+puts ("")
 
 # First Challenge, Output the following:
 # Hours in a year?
@@ -24,6 +24,7 @@ puts "Author's age: #{authors_age}\n\n"
 
 
 # Gets challenge, section 5.5
+puts "Type something, anything!"
 puts gets
 puts "\nWhat's your first name? "
 first_name = gets.chomp
@@ -63,7 +64,35 @@ puts "\"You can't be serious #{first_name}. \"#{input.upcase}?!\" YOU KNOW WHAT?
 # Create a table of contents using the center, ljust and rjust methods.
 
 line_width = 42
-puts("\nTable of Contents\n".center(line_width))
-puts("Chapter 1:".ljust(line_width) + "Ability Scores" + "Page 3".rjust(line_width))
-puts("Chapter 2:".ljust(line_width) + "Choosing Your Race" + "Page 10".rjust(line_width))
-puts("Chapter 3:".ljust(line_width) + "Choosing Your Class" + "Page 20\n\n".rjust(line_width))
+puts ("\nTable of Contents\n".center(line_width))
+puts ("Chapter 1:".ljust(line_width) + "Ability Scores" + "Page 3".rjust(line_width))
+puts ("Chapter 2:".ljust(line_width) + "Choosing Your Race" + "Page 10".rjust(line_width))
+puts ("Chapter 3:".ljust(line_width) + "Choosing Your Class" + "Page 20\n\n".rjust(line_width))
+
+
+# 6.4 More Arithmetic
+# 5 squared.
+puts 5**2
+# Square root of 5.
+puts 5**0.5
+# Modulus gives remained after division.
+puts 7%3
+365%7
+
+# The .abs method will always return the absolut value of a number.
+puts (5 - 2).abs
+puts (2 - 5).abs
+
+# Random number generation. This method by default generats a number greater than zero, but less than one.
+# Including a parameter .rand(5) will generate a number from 0 to 4.
+puts rand
+puts rand
+puts rand
+puts rand(100)
+puts rand(100)
+puts rand(100)
+puts rand(1)
+puts rand(1)
+puts rand(1)
+puts rand(999)
+puts("\nThe weatherman said there is a #{rand(101)}% chance of rain.\nBut you can never trust a weatherman.")
