@@ -4,6 +4,6 @@ The following will be the excercises and work done for the ExecOnline Replicants
 
 Chapters 1 - 6 are contained in hello_world.rb.
 
-Chapter: 7
-Section: 7.5 - A Few Things to Try
-Page: 49
+Chapter: 8
+Section: 8.0 - Arrays and Iterators
+Page: 51
