@@ -8,8 +8,8 @@ Chapter 8 is containted in arrays_and_iterators.rb
 Chapter 9 is containted in writing_your_own_methods.rb
 
 Chapter: 10 - There's Nothing New to Learn in Chapter 10
-Section: 10.0
-Page: 69 (Nice)
+Section: 10.1 - Recursion
+Page: 73
 
 ### Notes while talking with Mr. John Costa
 
