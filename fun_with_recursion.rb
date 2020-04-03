@@ -45,11 +45,35 @@ puts(continent_size(world, 5, 5))
 
 
 # Recursive sorting
-def sort nato
-    recursive_sort nato, []
+puts nil
+def sort(nato)
+    recursive_sort(nato, [])
 end
 
-def recursive_sort unsorted_array, sorted_array
-    # Your fabulous code goes here
+def recursive_sort(unsorted_array, sorted_array)
+    unsorted_array.each do |i|
+        eval = ""
+        counter = 0
+        puts nil
+        puts("i: #{i}")
+        unsorted_array.each do |k|
+            puts("k: #{k}")
+            if i >= k
+                puts("true")
+                counter += 1
+            end
+        end
+        puts(counter)
+        if counter == 1
+            eval = i
+            puts("eval: #{eval}")
+            sorted_array.push(eval)
+            puts("sorted_array: #{sorted_array}")
+            puts(unsorted_array.index(i))
+            unsorted_array.delete_at(unsorted_array.index(i))
+            puts("unsorted_array: #{unsorted_array}")
+        end
+    end
 end
 
+sort(["Zulu", "X-Ray", "Yankee", "Whiskey", "Tango", "Foxtrot"])
