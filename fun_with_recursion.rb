@@ -23,7 +23,7 @@ def continent_size(world, x, y)
     if y + 1 > world.length || x + 1 > world[y].length
         return 0 
     end
-    # Solution met with the help of StackOverflow user MDJ - https://stackoverflow.com/users/3897619/mdj
+    # Solution achieved with the help of StackOverflow user MDJ - https://stackoverflow.com/users/3897619/mdj
     if world[y][x] != "land"
         return 0
     end
@@ -42,3 +42,14 @@ def continent_size(world, x, y)
 end
 
 puts(continent_size(world, 5, 5))
+
+
+# Recursive sorting
+def sort nato
+    recursive_sort nato, []
+end
+
+def recursive_sort unsorted_array, sorted_array
+    # Your fabulous code goes here
+end
+
