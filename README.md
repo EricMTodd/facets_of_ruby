@@ -6,10 +6,11 @@ Chapters 1 - 6 are contained in hello_world.rb.
 Chapter 7 is contained in flow_control.rb
 Chapter 8 is containted in arrays_and_iterators.rb
 Chapter 9 is containted in writing_your_own_methods.rb
+Chapter 10 is contained in fun_with_recursion.rb - Moving on to Chapter 11 as most of the examples herein are redundant, overly complicated without much real practice involved and also codewars challenges I have completed using Python in the past.
 
-Chapter: 10 - There's Nothing New to Learn in Chapter 10
-Section: 10.1 - Recursion
-Page: 73
+Chapter: 11 - Reading and Writing, Saving and Loading, Yin and... Something Else
+Section: 11.5
+Page: 87
 
 ### Notes while talking with Mr. John Costa
 
