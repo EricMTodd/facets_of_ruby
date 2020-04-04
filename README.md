@@ -6,11 +6,13 @@ Chapters 1 - 6 are contained in hello_world.rb.
 Chapter 7 is contained in flow_control.rb
 Chapter 8 is containted in arrays_and_iterators.rb
 Chapter 9 is containted in writing_your_own_methods.rb
-Chapter 10 is contained in fun_with_recursion.rb - Moving on to Chapter 11 as most of the examples herein are redundant, overly complicated without much real practice involved and also codewars challenges I have completed using Python in the past.
+Chapter 10 is contained in fun_with_recursion.rb - Moving on to Chapter 11 as most of the examples herein are redundant, overly complicated without much real practice involved and also codewars challenges I have completed using Python in the past. (This was done with this understanding per John Costa's suggestion.)
+Part of Chapter 11 is contained in save_load_write_read.rb - I skipped much of this chapter due to the fact that it was asking me to modify files on my computer, which I am not equipped to do, nor comfortable doing.
+Chapter 12 - Contained in new_classes_of_objects.rb - Some challenges skipped to save time, I can achieve these but would rather delve into more interesting topics such as classes and studying hashes further.
 
-Chapter: 11 - Reading and Writing, Saving and Loading, Yin and... Something Else
-Section: 11.5
-Page: 87
+Chapter: 12 - New Classes of Objects
+Section: 12.0
+Page: 95
 
 ### Notes while talking with Mr. John Costa
 
