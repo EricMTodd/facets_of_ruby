@@ -8,11 +8,11 @@ Chapter 8 is containted in arrays_and_iterators.rb
 Chapter 9 is containted in writing_your_own_methods.rb
 Chapter 10 is contained in fun_with_recursion.rb - Moving on to Chapter 11 as most of the examples herein are redundant, overly complicated without much real practice involved and also codewars challenges I have completed using Python in the past. (This was done with this understanding per John Costa's suggestion.)
 Part of Chapter 11 is contained in save_load_write_read.rb - I skipped much of this chapter due to the fact that it was asking me to modify files on my computer, which I am not equipped to do, nor comfortable doing.
-Chapter 12 - Contained in new_classes_of_objects.rb - Some challenges skipped to save time, I can achieve these but would rather delve into more interesting topics such as classes and studying hashes further.
+Chapter 12 is contained in new_classes_of_objects.rb - Some challenges skipped to save time, I can achieve these but would rather delve into more interesting topics such as classes and studying hashes further.
 
 Chapter: 13 - Creating New Classes, Changing Existing Ones
-Section: 13.0
-Page: 103
+Section: 13.5
+Page: 108
 
 ### Notes while talking with Mr. John Costa
 
