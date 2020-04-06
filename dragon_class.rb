@@ -91,12 +91,13 @@ end
 
 puts
 pet = Dragon.new("Meraxes")
-pet.feed
-pet.toss
-pet.walk
-pet.put_to_bed
-pet.rock
-pet.put_to_bed
-pet.put_to_bed
-pet.put_to_bed
-pet.put_to_bed
+pet.feed()
+pet.toss()
+pet.walk()
+pet.put_to_bed()
+pet.rock()
+pet.put_to_bed()
+pet.put_to_bed()
+pet.put_to_bed()
+pet.put_to_bed()
+
