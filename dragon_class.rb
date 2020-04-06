@@ -1,6 +1,6 @@
 class Dragon
 
-    def initialize
+    def initialize(name)
         @name = name
         @asleep = false
         @stuff_in_belly = 10
@@ -51,5 +51,56 @@ class Dragon
             @asleep = falseputs("...but wakes up when you stop.")
         end
     end
+
+    private
+    def hungry?
+       @stuff_in_belly <= 2 
+    end
     
+    def poopy?
+        @stuff_in_guts >= 8
+    end
+
+    def passage_of_time
+        if @stuff_in_belly > 0
+            @stuff_in_belly -= 1
+            @stuff_in_guts += 1
+        else
+            if @asleep
+                @asleep = false
+                puts("#{@name} wakes up suddenly!")
+            end
+            puts("#{@name} is starving! In desperation, they are you!")
+            exit
+        end
+        if @stuff_in_guts >= 10
+            @stuff_in_guts = 0
+            puts("Whoops! #{@name} had an accident...")
+        end
+        if hungry?
+            if @asleep
+                @asleep = false
+                puts("#{@name} wakes up suddenly!")
+            end
+            puts("#{name}'s stomach grumbles.")
+        end
+        if poopy?
+            if @asleep
+                @asleep = false
+                puts("#{@name} wakes up suddenly!")
+            end
+            puts("#{@name} does the potty dance...")
+        end
+    end
 end
+
+pet = Dragon.new("Meraxes")
+pet.feed
+pet.toss
+pet.walk
+pet.put_to_bed
+pet.rock
+pet.put_to_bed
+pet.put_to_bed
+pet.put_to_bed
+pet.put_to_bed
