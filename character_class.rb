@@ -13,7 +13,6 @@ class Character
         puts("race: #{@race}")
         puts("archetype: #{@archetype}")
     end
-
 end
 
 puts()
