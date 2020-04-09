@@ -24,14 +24,31 @@
 class Tree
     def initialize(tree_type)
         @tree_type = tree_type
-        @age = 9
+        @age = 0
         @height = 0
         @fruit_count = 0
         @mature = false
 
         puts("\nYou planted your new #{@tree_type} tree. Once it's 10 years old it will begin to produce fruit!")
+    end
 
-        puts(passage_of_time)
+    def wait
+        passage_of_time
+    end
+
+    def inspect_tree
+        puts("\nYour #{@tree_type} tree is #{@age} years old.")
+        puts("It's #{@height} feet tall!")
+        puts("There are #{@fruit_count} fruits on the branches.")
+    end
+
+    def pick_fruit
+        if no_fruit?
+            puts("There is no fruit to pick!")
+        else
+            @fruit_count -= 1
+            puts("\nYou pick a piece of fruit. There are #{@fruit_count} left.")
+        end
     end
 
     private
@@ -41,26 +58,27 @@ class Tree
     end
 
     def max_height?
-        @height == 20
+        @height >= 20
     end
 
     def produce_fruit
         @fruit_count = rand(@age*0.35..@age*5).ceil
-        print("Your tree has yielded its fruits! There are #{@fruit_count} #{@tree_type} on the branches.")
+        print("Your tree has yielded its fruits!")
     end
 
-    def min_fruit?
+    def no_fruit?
         @fruit_count == 0
-    end
-
-    def max_fruit?
-        @fruit_count == 350
     end
 
     def passage_of_time 
         @fruit_count = 0
         @age += 1
-        puts("One year passes... Your #{@tree_type} tree is now #{@age} year(s) old.")
+        if max_height?
+            print
+        else
+            @height += 1.5
+        end
+        puts("\nOne year passes... Your #{@tree_type} tree is now #{@age} year(s) old.")
         if mature?
             produce_fruit
         else
@@ -75,6 +93,11 @@ def plant_new_tree
     print("What kind of tree would you like to plant? ")
     tree_type = gets.chomp.to_s.downcase
     new_tree = Tree.new(tree_type)
+    16.times do 
+        new_tree.wait
+        # new_tree.pick_fruit
+        new_tree.inspect_tree
+    end
 end
 
 def interact_with_tree
