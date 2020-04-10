@@ -12,7 +12,7 @@ Chapter 12 is contained in new_classes_of_objects.rb - Some challenges skipped t
 
 Chapter: 14 - Blocks and Procs
 Section: 14.1 - Methods That Take Procs
-Page: 113
+Page: 116
 
 ### Notes while talking with Mr. John Costa
 
