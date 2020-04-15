@@ -10,10 +10,9 @@ Chapter 10 is contained in fun_with_recursion.rb - Moving on to Chapter 11 as mo
 Part of Chapter 11 is contained in save_load_write_read.rb - I skipped much of this chapter due to the fact that it was asking me to modify files on my computer, which I am not equipped to do, nor comfortable doing.
 Chapter 12 is contained in new_classes_of_objects.rb - Some challenges skipped to save time, I can achieve these but would rather delve into more interesting topics such as classes and studying hashes further.
 Chapter 13 is contained in dragon_class.rb and orange_tree.rb
+Chapter 14 is containted in blocks_and_procs.rb
 
-Chapter: 14 - Blocks and Procs
-Section: 14.3 - Passing Blocks (Not Procs) into Methods
-Page: 118
+Book complete.
 
 ### Notes while talking with Mr. John Costa
 
